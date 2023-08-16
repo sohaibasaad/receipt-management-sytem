@@ -1,0 +1,81 @@
+.loginbg {
+    background: #000055;
+}
+
+.custom-form-main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-form {
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid;
+    padding: 50px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.main-heading {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.custom-button {
+    background: #000055;
+    border: 1px solid #000055;
+    padding: 7px 35px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s all ease;
+}
+
+.custom-button:hover {
+    background: transparent;
+    color: #000055;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000055;
+    transition: 0.5s all ease;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #ccc !important;
+    font-size: 13px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ccc !important;
+    font-size: 13px;
+}
+
+::placeholder {
+    color: #ccc !important;
+    font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+    .custom-form {
+        width: 100%;
+    }
+}
